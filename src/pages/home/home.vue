@@ -7,7 +7,7 @@
 import { test } from '../../components/utils/api'
 
 export default {
-    name: 'Index',
+    name: 'Home',
     data () {
         return {
             aaa: 'home page'

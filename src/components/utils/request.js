@@ -6,13 +6,10 @@ export default (url, type = 'GET', data) => {
             url,
             type,
             data,
-            dataType: 'json',
-            contentType: 'application/x-www-form-urlencoded;charset=UTF-8',
             xhrFields: {
                 withCredentials: true
               },
             beforeSend() {
-
             },
             success(data) {
                 resolve(data)

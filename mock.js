@@ -8,7 +8,7 @@ module.exports = {
         method: 'GET',
         handle: {
                 resultCode: 0,
-                resultMsg: 'ama操作',
+                resultMsg: 'amab操作',
                 resultData: {
                     'title': 'Syntax Demo',
 
