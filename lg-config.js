@@ -11,12 +11,28 @@ module.exports = {
             publicPath: '/a/b/',
             openPage: 'a/b/'
         },
+        env: {
+            apiPrefix: '',
+            routerPath: '/a/b'
+        },
         useMock: true,
         path: '/a/b/',
         // assets path
         publicPath: '/a/b/'
     },
+    test: {
+        env: {
+            apiPrefix: '//minner.jr.jd.com',
+            routerPath: '/a/b'
+        },
+        path: '/a/b/',
+        publicPath: '/a/b/'
+    },
     prod: {
+        env: {
+            apiPrefix: '//u.jr.jd.com',
+            routerPath: '/a/b'
+        },
         path: '/a/b/',
         publicPath: '/a/b/'
     }

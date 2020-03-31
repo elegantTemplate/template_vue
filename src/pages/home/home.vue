@@ -14,7 +14,7 @@ export default {
         }
     },
     created() {
-        console.log(LG_CONFIG_API_PREFIX)
+        console.log('LG_CONFIG_APIPREFIX')
         test().then(res => {
             console.log(res)
         })

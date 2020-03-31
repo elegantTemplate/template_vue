@@ -41,7 +41,6 @@ module.exports = {
         "no-useless-return": ["error"],
         "no-unused-vars": ["error"],
         "no-use-before-define": ["error"],
-        // because of categorical variables 'LG_CONFIG_XXX'
         "no-undef": ["off"]
     }
 }
